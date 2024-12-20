@@ -18,7 +18,7 @@ Un agent de diagnostic d’imagerie médicale développé avec **phidata** et al
 1. **Configurer l’Environnement**
    ```bash
    # Cloner le dépôt
-   git clone 
+   git clone https://github.com/IbrahimaBailoDIALLO/AI_Agent/tree/main
    cd ai_agent_tutorials/ai_medical_imaging_agent
 
    # Installer les dépendances
