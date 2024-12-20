@@ -1,3 +1,4 @@
+pip install --upgrade pip
 streamlit==1.40.2
 phidata==2.7.3
 duckduckgo-search==6.4.1
