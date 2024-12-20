@@ -1,66 +1,54 @@
-# Medical Imaging Diagnosis Agent
+Agent de diagnostic d'imagerie médicale
+Un agent de diagnostic d'imagerie médicale basé sur phidata optimisé par Gemini 2.0 Flash Experimental qui fournit une analyse assistée par IA d'images médicales de divers scanners. L'agent agit en tant qu'expert en diagnostic d'imagerie médicale pour analyser divers types d'images et de vidéos médicales, fournissant des informations et des explications diagnostiques détaillées.
 
-A Medical Imaging Diagnosis Agent build on phidata powered by Gemini 2.0 Flash Experimental that provides AI-assisted analysis of medical images of various scans. The agent acts as a medical imaging diagnosis expert to analyze various types of medical images and videos, providing detailed diagnostic insights and explanations.
+Caractéristiques
+Analyse d'image complète
+Identification du type d'image (radiographie, IRM, tomodensitométrie, échographie)
+Détection de région anatomique
+Principales conclusions et observations
+Détection d'anomalies potentielles
+Évaluation de la qualité de l'image
+Recherche et référence
+Comment courir
+Environnement de configuration
 
-## Features
+# Clone the repository
+git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
+cd ai_agent_tutorials/ai_medical_imaging_agent
 
-- **Comprehensive Image Analysis**
-  - Image Type Identification (X-ray, MRI, CT scan, ultrasound)
-  - Anatomical Region Detection
-  - Key Findings and Observations
-  - Potential Abnormalities Detection
-  - Image Quality Assessment
-  - Research and Reference
+# Install dependencies
+pip install -r requirements.txt
+Configurer les clés API
 
-## How to Run
+Obtenir la clé API Google depuis Google AI Studio
+Exécuter l'application
 
-1. **Setup Environment**
-   ```bash
-   # Clone the repository
-   git clone 
-   cd ai_agent_tutorials/ai_medical_imaging_agent
+streamlit run ai_medical_imaging.py
+Composants d'analyse
+Type d'image et région
 
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
+Identifie la modalité d'imagerie
+Spécifie la région anatomique
+Principales conclusions
 
-2. **Configure API Keys**
-   - Get Google API key from [Google AI Studio](https://aistudio.google.com)
+Liste systématique des observations
+Descriptions détaillées des apparences
+Mise en évidence des anomalies
+Évaluation diagnostique
 
-3. **Run the Application**
-   ```bash
-   streamlit run ai_medical_imaging.py
-   ```
+Classement des diagnostics potentiels
+Diagnostics différentiels
+Évaluation de la gravité
+Explications adaptées aux patients
 
-## Analysis Components
-
-- **Image Type and Region**
-  - Identifies imaging modality
-  - Specifies anatomical region
-
-- **Key Findings**
-  - Systematic listing of observations
-  - Detailed appearance descriptions
-  - Abnormality highlighting
-
-- **Diagnostic Assessment**
-  - Potential diagnoses ranking
-  - Differential diagnoses
-  - Severity assessment
-
-- **Patient-Friendly Explanations**
-  - Simplified terminology
-  - Detailed first-principles explanations
-  - Visual reference points
-
-## Notes
-
-- Uses Gemini 2.0 Flash for analysis
-- Requires stable internet connection
-- API usage costs apply
-- For educational and development purposes only
-- Not a replacement for professional medical diagnosis
-
-## Disclaimer
-
-This tool is for educational and informational purposes only. All analyses should be reviewed by qualified healthcare professionals. Do not make medical decisions based solely on this analysis.
+Terminologie simplifiée
+Explications détaillées des premiers principes
+Points de référence visuels
+Remarques
+Utilise Gemini 2.0 Flash pour l'analyse
+Nécessite une connexion Internet stable
+Des frais d'utilisation de l'API s'appliquent
+À des fins éducatives et de développement uniquement
+Ne remplace pas un diagnostic médical professionnel
+Clause de non-responsabilité
+Cet outil est fourni à des fins éducatives et informatives uniquement. Toutes les analyses doivent être examinées par des professionnels de la santé qualifiés. Ne prenez pas de décisions médicales basées uniquement sur cette analyse.
