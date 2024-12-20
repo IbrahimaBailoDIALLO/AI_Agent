@@ -1,131 +1,67 @@
-# Medical Imaging Diagnosis Agent
 
-A Medical Imaging Diagnosis Agent build on phidata powered by Gemini 2.0 Flash Experimental that provides AI-assisted analysis of medical images of various scans. The agent acts as a medical imaging diagnosis expert to analyze various types of medical images and videos, providing detailed diagnostic insights and explanations.
+# Agent de Diagnostic d’Imagerie Médicale
 
-## Features
+Un agent de diagnostic d’imagerie médicale développé avec **phidata** et alimenté par **Gemini 2.0 Flash Experimental**, offrant une analyse assistée par IA des images médicales de différents types de scans. L’agent agit comme un expert en diagnostic d’imagerie médicale pour analyser divers types d’images et vidéos médicales, en fournissant des informations diagnostiques détaillées et des explications.
 
-- **Comprehensive Image Analysis**
-  - Image Type Identification (X-ray, MRI, CT scan, ultrasound)
-  - Anatomical Region Detection
-  - Key Findings and Observations
-  - Potential Abnormalities Detection
-  - Image Quality Assessment
-  - Research and Reference
+## Fonctionnalités
 
-## How to Run
+- **Analyse Complète des Images**
+  - *Identification du type d’image* (radiographie, IRM, scanner, échographie)
+  - *Détection de la région anatomique*
+  - *Principaux résultats et observations*
+  - *Détection des anomalies potentielles*
+  - *Évaluation de la qualité de l’image*
+  - *Recherche et référence*
 
-1. **Setup Environment**
+## Comment Lancer
+
+1. **Configurer l’Environnement**
    ```bash
-   # Clone the repository
+   # Cloner le dépôt
    git clone 
    cd ai_agent_tutorials/ai_medical_imaging_agent
 
-   # Install dependencies
+   # Installer les dépendances
    pip install -r requirements.txt
    ```
 
-2. **Configure API Keys**
-   - Get Google API key from [Google AI Studio](https://aistudio.google.com)
+2. **Configurer les Clés API**
+   - Obtenez une clé API Google depuis [Google AI Studio](https://aistudio.google.com)
 
-3. **Run the Application**
+3. **Exécuter l’Application**
    ```bash
    streamlit run ai_medical_imaging.py
    ```
 
-## Analysis Components
+## Composants d’Analyse
 
-- **Image Type and Region**
-  - Identifies imaging modality
-  - Specifies anatomical region
+- **Type d’Image et Région**
+  - Identifie la modalité d’imagerie
+  - Spécifie la région anatomique
 
-- **Key Findings**
-  - Systematic listing of observations
-  - Detailed appearance descriptions
-  - Abnormality highlighting
+- **Principaux Résultats**
+  - *Liste systématique des observations*
+  - *Descriptions détaillées de l’apparence*
+  - *Mise en évidence des anomalies*
 
-- **Diagnostic Assessment**
-  - Potential diagnoses ranking
-  - Differential diagnoses
-  - Severity assessment
+- **Évaluation Diagnostique**
+  - *Classement des diagnostics potentiels*
+  - *Diagnostics différentiels*
+  - *Évaluation de la gravité*
 
-- **Patient-Friendly Explanations**
-  - Simplified terminology
-  - Detailed first-principles explanations
-  - Visual reference points
+- **Explications Accessibles aux Patients**
+  - *Terminologie simplifiée*
+  - *Explications détaillées basées sur des principes fondamentaux*
+  - *Points de référence visuels*
 
-## Notes
+## Remarques
 
-- Uses Gemini 2.0 Flash for analysis
-- Requires stable internet connection
-- API usage costs apply
-- For educational and development purposes only
-- Not a replacement for professional medical diagnosis
+- **Utilise Gemini 2.0 Flash** pour l’analyse
+- **Nécessite une connexion internet stable**
+- **Des coûts d’utilisation de l’API peuvent s’appliquer**
+- **Destiné uniquement à des fins éducatives et de développement**
+- **Ne remplace pas un diagnostic médical professionnel**
 
-## Disclaimer
+## Avertissement
 
-This tool is for educational and informational purposes only. All analyses should be reviewed by qualified healthcare professionals. Do not make medical decisions based solely on this analysis.# Medical Imaging Diagnosis Agent
-
-A Medical Imaging Diagnosis Agent build on phidata powered by Gemini 2.0 Flash Experimental that provides AI-assisted analysis of medical images of various scans. The agent acts as a medical imaging diagnosis expert to analyze various types of medical images and videos, providing detailed diagnostic insights and explanations.
-
-## Features
-
-- **Comprehensive Image Analysis**
-  - Image Type Identification (X-ray, MRI, CT scan, ultrasound)
-  - Anatomical Region Detection
-  - Key Findings and Observations
-  - Potential Abnormalities Detection
-  - Image Quality Assessment
-  - Research and Reference
-
-## How to Run
-
-1. **Setup Environment**
-   ```bash
-   # Clone the repository
-   git clone 
-   cd ai_agent_tutorials/ai_medical_imaging_agent
-
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
-
-2. **Configure API Keys**
-   - Get Google API key from [Google AI Studio](https://aistudio.google.com)
-
-3. **Run the Application**
-   ```bash
-   streamlit run ai_medical_imaging.py
-   ```
-
-## Analysis Components
-
-- **Image Type and Region**
-  - Identifies imaging modality
-  - Specifies anatomical region
-
-- **Key Findings**
-  - Systematic listing of observations
-  - Detailed appearance descriptions
-  - Abnormality highlighting
-
-- **Diagnostic Assessment**
-  - Potential diagnoses ranking
-  - Differential diagnoses
-  - Severity assessment
-
-- **Patient-Friendly Explanations**
-  - Simplified terminology
-  - Detailed first-principles explanations
-  - Visual reference points
-
-## Notes
-
-- Uses Gemini 2.0 Flash for analysis
-- Requires stable internet connection
-- API usage costs apply
-- For educational and development purposes only
-- Not a replacement for professional medical diagnosis
-
-## Disclaimer
-
-This tool is for educational and informational purposes only. All analyses should be reviewed by qualified healthcare professionals. Do not make medical decisions based solely on this analysis.
+Cet outil est destiné à des fins éducatives et informatives uniquement. Toutes les analyses doivent être examinées par des professionnels de santé qualifiés. **Ne prenez pas de décisions médicales uniquement sur la base de cette analyse.**
